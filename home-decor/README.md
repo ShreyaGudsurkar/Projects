@@ -78,6 +78,8 @@ The project uses a simple, component-based architecture for maintainability and 
 git clone https://github.com/shreya-gudsurkar/home-decor.git
 cd home-decor
 npm install
+```
+---
 
 ## Design Philosophy
 
@@ -87,6 +89,7 @@ npm install
 * **Mobile-First**: A responsive, mobile-first design ensuring a seamless experience on all screen sizes.
 * **Component Reusability**: Modular components that simplify code maintenance and UI consistency.
 
+---
 ## Accessibility
 
 This project prioritizes accessibility by implementing WCAG 2.1 standards, including:
@@ -97,6 +100,8 @@ This project prioritizes accessibility by implementing WCAG 2.1 standards, inclu
 * **High Color Contrast**: Ensures visibility and clarity for users with low vision.
 * **Alt Text**: Included for all images to improve screen reader interpretation.
 * **Focus Management**: Clear focus styles for active elements.
+
+---
 
 ## Future Enhancements
 

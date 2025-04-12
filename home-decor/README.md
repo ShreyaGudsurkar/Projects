@@ -1,4 +1,4 @@
-# 🏡 Sabe Casa — Home Decor Application
+# Sabe Casa — Home Decor Application
 ---
 
 ## Table of Contents
@@ -11,19 +11,13 @@
 - [Setup Instructions](#setup-instructions)
 - [Design Philosophy](#design-philosophy)
 - [Accessibility](#accessibility)
-
----
+- [Future Enhancements](#future-enhancements)
 
 ##  Introduction
 
 **Sabe Casa** is a frontend web application built using React. 
 It allows users to browse curated room designs across different styles and save their favorites for later. 
 The app is intended for anyone looking for home decor ideas, offering a simple and responsive interface without requiring user login or backend services.
-
-![Screenshot - Home](./screenshots/home.png)
-![Screenshot - My Saved Edit](./screenshots/saved-edit.png)
-![Screenshot - Seasonal Guide](./screenshots/home.png)
----
 
 ## Features
 
@@ -34,8 +28,6 @@ The app is intended for anyone looking for home decor ideas, offering a simple a
 -  **Seasonal Carousel**: Explore featured decor based on the season (e.g., *Summer Vibes*).
 -  **Responsive Design**: Optimized layout for desktop and mobile devices.
 
----
-
 ##  Technologies Used
 
 | Technology   | Purpose                         | Notes                            |
@@ -44,14 +36,6 @@ The app is intended for anyone looking for home decor ideas, offering a simple a
 | Vite         | Build tool                      | Fast HMR, lightweight builds     |
 | JavaScript   | Programming language            | Modern syntax and modules        |
 | CSS3         | Styling                         | Flexbox/Grid, hover effects      |
-
----
-
-## Architecture
-
-The project uses a simple, component-based architecture for maintainability and scalability.
-
----
 
 ##  UI Components
 
@@ -63,7 +47,6 @@ The project uses a simple, component-based architecture for maintainability and 
 | `Header`        | Top navigation bar with links and profile dropdown.                      |
 | `FilterButtons` | Buttons to filter decor ideas by room type.                              |
 
----
 
 ## Setup Instructions
 
@@ -79,17 +62,15 @@ git clone https://github.com/shreya-gudsurkar/home-decor.git
 cd home-decor
 npm install
 ```
----
 
 ## Design Philosophy
 
-- **User-Centric Design**: Easy navigation and clear information presentation for an intuitive user experience.
+* **User-Centric Design**: Easy navigation and clear information presentation for an intuitive user experience.
 * **Minimalistic Aesthetic**: Simple, clean design focusing on visuals that matter most — the decor items.
 * **Performance Optimization**: Fast page load times, optimized images, and smooth transitions.
 * **Mobile-First**: A responsive, mobile-first design ensuring a seamless experience on all screen sizes.
 * **Component Reusability**: Modular components that simplify code maintenance and UI consistency.
 
----
 ## Accessibility
 
 This project prioritizes accessibility by implementing WCAG 2.1 standards, including:
@@ -100,8 +81,6 @@ This project prioritizes accessibility by implementing WCAG 2.1 standards, inclu
 * **High Color Contrast**: Ensures visibility and clarity for users with low vision.
 * **Alt Text**: Included for all images to improve screen reader interpretation.
 * **Focus Management**: Clear focus styles for active elements.
-
----
 
 ## Future Enhancements
 
